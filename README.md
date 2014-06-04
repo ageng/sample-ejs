@@ -37,6 +37,12 @@ parsing file posts.json sebelum di route dan kemudian di kembalikan di ejs:
 	    next();
 	  });
 	});
+
+Ketika browser meminta suatu request, aplikasi ini akan merequest ejs file yaitu index.ejs. Otomatis Express akan melihat di direktori views :
+
+	app.get('/', function(req, res){
+	  res.render('index.ejs');
+	});
 	
 ```
 
