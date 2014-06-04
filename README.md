@@ -16,8 +16,12 @@ Setelah membuat file json yang digunakan untuk ditampilkan datanya, selanjutnya
 kita konfigurasi file app.js
 ```
 #penjelasan
-```javasctipt
-var express = require('express');
-var fs = require('fs');
-var app = express();
+```javascript
+
+Modul dan variable yang di butuhkan
+
+	var express = require('express');
+	var fs = require('fs');
+	var app = express();
 ```
+
